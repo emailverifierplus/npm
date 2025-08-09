@@ -1,4 +1,5 @@
-release: 
+release:
+	rm -rf dist
 	pnpm build
 	git add -A
 	git commit -am "release"

@@ -1,0 +1,33 @@
+{
+  "name": "email-verifier-plus",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "husky"
+  },
+  "author": "Romeo Mihalcea <romeo.mihalcea@gmail.com>",
+  "license": "MIT",
+  "description": "A tool for verifying if email addresses are valid and deliverable.",
+  "keywords": [
+    "email",
+    "verification",
+    "deliverability",
+    "validation",
+    "email-verifier",
+    "smtp-verifier",
+    "smtp-checker",
+    "email-checker"
+  ],
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.2.1",
+    "dotenv": "^17.2.1",
+    "husky": "^9.1.7",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.3"
+  }
+}

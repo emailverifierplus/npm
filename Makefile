@@ -1,4 +1,5 @@
 release: 
+	pnpm build
 	git add -A
 	git commit -am "release"
 	git fetch --tags -f

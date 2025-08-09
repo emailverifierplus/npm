@@ -9,16 +9,15 @@
       "DOM.Iterable"
     ],
     "skipLibCheck": true,
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+    "moduleResolution": "node", // Changed from "bundler"
+    "allowImportingTsExtensions": false, // Changed from true
     "moduleDetection": "force",
-    "noEmit": true,
-    /* Linting */
+    "noEmit": false,
+    "declaration": true,
+    "declarationMap": true,
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
     "baseUrl": ".",
@@ -29,13 +28,14 @@
       "@tests/*": [
         "tests/*"
       ]
-    }
+    },
+    "outDir": "./dist"
   },
   "include": [
-    "src",
-    "tests/test.ts"
+    "src"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "tests/test.ts"
   ]
 }

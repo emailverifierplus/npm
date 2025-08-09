@@ -7,6 +7,14 @@
     "test": "jest",
     "prepare": "husky"
   },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "author": "Romeo Mihalcea <romeo.mihalcea@gmail.com>",
   "license": "MIT",
   "description": "A tool for verifying if email addresses are valid and deliverable.",

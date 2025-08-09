@@ -1,6 +1,6 @@
 {
   "name": "@emextools/email-verifier-plus",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "type": "module",
   "scripts": {
     "build": "tsc",

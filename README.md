@@ -10,7 +10,7 @@ The main score is under the `reachable` property of the response and is represen
 - `no` meaning the email was not found and you're likely to bounce if you send to it
 - `unknown` meaning we're not sure, possible catchall email address
 
-# ⚡ Usage
+## ⚡ Usage
 
 You will need a subscription and an API key for this API. A free plan is also available and it allows you to perform 20 verifications/day. 
 
@@ -49,7 +49,7 @@ const result = await checkEmailExists(apiKey, "mark@apple.com")
 }
 ```
 
-# 🚀 Features
+## 🚀 Features
 
 The following properties can also be found in the response:
 
@@ -61,3 +61,12 @@ The following properties can also be found in the response:
 - `has_mx_records` DNS check (has mx records or not)
 
 Use them wisely to figure out if the email is valid for your particular use case.
+
+## 📌 Use cases
+
+- blocking free emails from registering
+- blocking disposable emails from registering
+- blocking/detecting catch-all domains
+- cleaning email lists to avoid hard bounces
+- suggesting fixes for mispelled domains
+- email list cleaning

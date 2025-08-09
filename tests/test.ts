@@ -5,7 +5,7 @@ if (!apiKey) {
     throw new Error('RAPIDAPI_KEY is not set in the environment variables');
 }
 
-import { checkEmailExists } from '../src/main';
+import { checkEmailExists } from '../src/index';
 
 describe('testing email verification', () => {
     test('response fields are present', async () => {

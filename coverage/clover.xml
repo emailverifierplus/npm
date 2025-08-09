@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1754776003840" clover="3.2.0">
-  <project timestamp="1754776003840" name="All files">
+<coverage generated="1754776284368" clover="3.2.0">
+  <project timestamp="1754776284368" name="All files">
     <metrics statements="37" coveredstatements="37" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1" elements="39" coveredelements="39" complexity="0" loc="37" ncloc="37" packages="1" files="1" classes="1"/>
     <file name="main.ts" path="/Volumes/Data/Projects/personal/emextools/email-verifier-plus-npm/src/main.ts">
       <metrics statements="37" coveredstatements="37" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>

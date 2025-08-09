@@ -5,5 +5,6 @@ release:
 	git fetch --tags -f
 	standard-version
 	git push --follow-tags origin master
+	npm publish --access public
 
 .PHONY: release

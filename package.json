@@ -1,5 +1,5 @@
 {
-  "name": "email-verifier-plus",
+  "name": "@emextools/email-verifier-plus",
   "version": "1.0.5",
   "type": "module",
   "scripts": {
@@ -18,6 +18,10 @@
   "author": "Romeo Mihalcea <romeo.mihalcea@gmail.com>",
   "license": "MIT",
   "description": "A tool for verifying if email addresses are valid and deliverable.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emailverifierplus/npm.git"
+  },
   "keywords": [
     "email",
     "verification",

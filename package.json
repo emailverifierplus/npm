@@ -9,18 +9,15 @@
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    }
-  },
+  "files": [
+    "dist"
+  ],
   "author": "Romeo Mihalcea <romeo.mihalcea@gmail.com>",
   "license": "MIT",
   "description": "A tool for verifying if email addresses are valid and deliverable.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/emailverifierplus/npm.git"
+    "url": "git+https://github.com/emailverifierplus/npm.git"
   },
   "keywords": [
     "email",
